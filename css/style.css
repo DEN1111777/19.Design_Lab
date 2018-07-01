@@ -204,3 +204,115 @@ p {
 	padding-top: 120px;
 	padding-bottom: 115px;
 }
+
+.sub-section {
+	margin-bottom: 105px;
+}
+
+.box--sub-section {
+	margin-top: 110px;
+	margin-bottom: 90px;
+}
+
+.sub-section__title {
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.16em;
+}
+
+/*links-container*/
+.links-container {
+	margin-left: -5px;
+	margin-right: -5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-30 {
+	flex-basis: calc(30% - 10px);
+}
+
+.col-40 {
+	flex-basis: calc(40% - 10px);
+}
+
+.link-wrapper {
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: flex-end;
+	margin: 0 5px 10px 5px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	/*width: 100%;*/
+	height: 237px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-decoration: none;
+	font-size: 34px;
+	color: #ffffff;
+	font-weight: bold;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+
+.link-wrapper:hover {
+	transform: scale(1.1);
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+	border: 2px solid #000000;
+	box-shadow: inset 0 0 10em gold
+	/*opacity: 0.8;*/
+	/*background-blend-mode: hard-light, multiply, normal;*/
+}
+
+.links--topworkz {
+	background-image: url(../img/Topworkz.jpg);
+	/*background-color: #fcfcfc;*/
+}
+
+.links--joint {
+	background-image: url(../img/Joint.jpg);
+}
+
+.links--market {
+	background-image: url(../img/Market.jpg);
+}
+
+.links--worktop {
+	background-image: url(../img/Worktop.jpg);
+}
+
+.links--lable {
+	background-image: url(../img/Lable.jpg);
+}
+
+.links--kyiv {
+	background-image: url(../img/Kyiv.jpg);
+}
+
+.links--topworkz:hover,
+.links--worktop:hover {
+	transform: translateX(20px)
+				scale(1.1);
+}
+
+.links--market:hover,
+.links--kyiv:hover {
+	transform: translateX(-20px)
+				scale(1.1);
+}
+
+.link
