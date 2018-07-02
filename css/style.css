@@ -54,6 +54,62 @@ p {
 	margin-bottom: 35px;
 }
 
+/*logo-styling*/
+.svg__logo {
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-ms-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+}
+
+.svg__logo:hover {
+	transform: scale(1.2);
+}
+
+.logo-mini-circle--first,
+.logo-mini-circle--second,
+.logo-mini-circle--third {
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-ms-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+}
+
+.svg__logo:hover .logo-mini-circle--first {
+	-webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+	fill: #d00000;
+}
+
+.svg__logo:hover .logo-mini-circle--second {
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-ms-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+	fill: #008212;
+}
+
+.svg__logo:hover .logo-mini-circle--third {
+	-webkit-transition: all 3s ease-out;
+	-moz-transition: all 3s ease-out;
+	-ms-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+	transition: all 3s ease-out;
+	fill: #150082;
+}
+
+.svg__logo:hover .logo-triangle {
+	transition-delay: 2s;
+	stroke: #43ebff;
+}
+/*logo-styling end*/
+
 .header__title {
 	margin: 0 0 35px;
 	font-size: 54px;
