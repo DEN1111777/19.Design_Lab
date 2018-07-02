@@ -24,7 +24,7 @@ p {
 	max-width: 940px;
 }
 
-/*header start*/
+/*header*/
 .container--hero {
 	display: flex;
 	flex-direction: column;
@@ -70,7 +70,7 @@ p {
 	letter-spacing: 0.06em;
 }
 
-/*btn-scroll animation start*/
+/*btn-scroll animation*/
 .btn-skroll {
 	position: absolute;
 	bottom: 115px;
@@ -114,8 +114,6 @@ p {
 	-o-transition: all 1s ease-out;
 	transition: all 1s ease-out;
 }
-/*btn-scroll animation end*/
-/*header end*/
 
 /*main*/
 .main-section {
@@ -315,4 +313,73 @@ p {
 				scale(1.1);
 }
 
-.link
+/*contact-us*/
+.contact-us {
+	padding-top: 140px;
+	padding-bottom: 60px;
+}
+
+.btn--contact-us {
+	display: table;
+	margin: auto;
+	padding: 20px 136px;
+	text-decoration: none;
+	letter-spacing: 0.16em;
+}
+
+.btn--contact-us {
+	background-color: #3c3c3c;
+	color: #ffffff;
+}
+
+.btn--contact-us:hover {
+	background-color: #626262;
+}
+
+.btn--contact-us:active {
+	background-color: #3c3c3c;
+	transform: translateY(5px);
+}
+
+/*footer*/
+.footer {
+	margin: 0 auto 55px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*.svg__logo--footer {
+	transform: scale(0.8, 0.8);
+}*/
+
+.svg__logo--footer .logo-triangle,
+.svg__logo--footer .logo-circle {
+	fill: none;
+	stroke-width: 2px;
+}
+
+.svg__logo--footer .logo-triangle {
+	stroke: #000000;
+}
+
+.svg__logo--footer .logo-triangle, 
+.svg__logo--footer .logo-circle {
+	fill-rule: evenodd;
+}
+
+.svg__logo--footer .logo-circle {
+	stroke: #000000;
+}
+
+.svg__logo--footer .logo-mini-circle--first,
+.svg__logo--footer .logo-mini-circle--second,
+.svg__logo--footer .logo-mini-circle--third {
+	fill: #000000;
+}
+
+.footer-text {
+	margin: 0 0 0 33px;
+	font-size: 14px;
+	color: rgb(60, 60, 60);
+}
